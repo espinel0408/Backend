@@ -1,0 +1,241 @@
+{
+	"info": {
+		"_postman_id": "68f6382f-0e96-4611-bb6d-7c0855e13950",
+		"name": "Reto3Collection Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetAllCategory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/Category/all",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Category",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCategoryById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/Category/1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Category",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SaveCategory",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/Category/save",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Category",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateCategory",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/Category/update",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Category",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteCategory",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/Category/1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Category",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMessage",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/Message/all",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Message",
+						"all"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMessageById",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/Message/1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Message",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostMessage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"messageText\":\"Me gusta.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/Message/save",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Message",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutMessage",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" : 1,\r\n    \"messageText\":\"Hola Mundo\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/Message/update",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Message",
+						"update"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteMessage",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/Message/1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"Message",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
